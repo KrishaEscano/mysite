@@ -1,0 +1,221 @@
+body {
+  margin: 0;
+  background-color: #ffcac2;
+  text-align: center;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+nav {
+    background:#ffe0e0;
+    height: 80px;
+    width:100%;
+}
+
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+nav ul li a {
+  color: #900c3f;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+nav .active, li :hover {
+  background: #ffcac2;
+  transition: .5s;
+}
+
+@media (max-width: 952px) {
+  label.logo {
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  nav ul li a {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 858px) {
+
+  ul {
+    position: block;
+    width: 100%;
+    height: 100vh;
+    background: #ffcac2;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+  }
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a {
+    font-size: 20px;
+  }
+ li:hover, .active {
+    background: #ffcac2;
+    color: #900c3f;
+  }
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  color: #900c3f;
+}
+
+h2 {
+  font-family: 'Source Serif Pro', serif;
+  font-size: 2.5rem; /*1 em =16px divide by 40px*/
+  font-weight: normal;
+  color: #900c3f;
+
+}
+
+h3 {
+  font-family: 'Source Serif Pro', serif;
+  color: #900c3f;
+}
+
+hr {
+  border-style: none;
+  border-bottom-style:dotted;
+  border-color: #fc9d9d;
+  border-width: 2px;
+  width: 4%;
+}
+
+p {
+  line-height: 2;
+  color: #40514E;
+}
+
+.logo {
+float:left;
+width:20%;
+padding:20px;
+}
+
+.navigation ul {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.top-container {
+  position:relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: white;
+}
+
+.bottom-container {
+  background-color: #ffcac2;
+  padding: 20px 0 20px;
+}
+
+.profile {
+  padding: 100px 0;
+}
+
+.contact-me {
+  padding: 100px;
+}
+
+.skills {
+  padding: 100px 0;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.circle-krisha {
+  width: 180px;
+}
+
+.cookingicon {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.codingicon {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+
+}
+
+.contact-description {
+  width: 40%;
+  margin: 5% auto 10%;
+}
+
+.contact-btn {
+  color: white;
+  text-decoration: none;
+  border: solid 1px;
+  padding: 15px 30px ;
+  border-radius: 20px;
+  background-color: #900C3F;
+  box-shadow: 1px 0 20px 0;
+}
+
+.contact-btn:hover {
+  color:#900C3F;
+  background-color: #CCAFAF;
+}
+
+a {
+  text-decoration: none;
+  color:#900C3F;
+}
+
+a:hover {
+  color: #CCAFAF;
+}
+
+.project {
+  margin-bottom:100%;
+}
+
+.footer-p {
+  color: #900c3f;
+}
+
+.footer-n {
+  color: white;
+}
